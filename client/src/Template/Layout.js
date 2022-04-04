@@ -4,7 +4,7 @@ import Sidebar from "./Sidebar/Sidebar";
 const Layout = (props) => {
     const { children } = props;
     return (
-        <div>
+        <div style={{display: "flex"}}>
             <Sidebar />
             {children}
         </div>

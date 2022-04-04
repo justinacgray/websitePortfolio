@@ -21,5 +21,8 @@ body {
 }
 
 .App {
-    display: flex;
+    background-image: url('./assets/images/pexels-iva-muškić-691710.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: .85;
 }

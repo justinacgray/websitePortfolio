@@ -4,16 +4,16 @@ import Helmet from "react-helmet";
 
 const HomePage = () => {
     return (
-        <div>
+        <Fragment>
             <Helmet>
                 <title>Home Page</title>
             </Helmet>
             <Layout>
-                <Fragment>
-                    llksdfsdfj;kdlsdflkgjdflkgdfjgkldfjgdfj;lgkjdfkgfgjlfj;lgkdfjgk;lfdjgkfdgjkgfdhfkldhfhdsfklhsdflsdklfj;dklsfj
-                </Fragment>
+                <h1>
+                    HomePage
+                </h1>
             </Layout>
-    </div>
+    </Fragment>
     );
 }
 
