@@ -1,8 +1,21 @@
-*{
+@import 'https://fonts.googleapis.com/css?family=Overlock:400,400i,700|Oleo+Script';
+
+*,
+*::before,
+*::after,
+:root {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none;
-    line-height: 1.5;
-    user-select: none;
 }
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Overlock', Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+

@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import styles from "./Sidebar.module.scss"
 import { SiAboutdotme } from "react-icons/si";
 import { MdContactPage, MdOutlineLogout } from "react-icons/md";
@@ -14,7 +14,7 @@ import {
 } from "react-icons/fa";
 // have resume in About Me
 
-const Navbar = () => {
+const Sidebar = () => {
 const [nav, setnav] = useState(false);
 
 const NavBarLink = ({ url, icon, description }) => {
@@ -23,24 +23,24 @@ const checkWindowSize = () => {
 };
 return (
     <li className={styles.li_navlink}>
-    <Link
+    <NavLink
         to={`${url}`}
         onClick={() => checkWindowSize()}
         className={({ isActive }) => (isActive ? styles.active : undefined)}
     >
         {icon}
         <span className={styles.description}>{description}</span>
-    </Link>
+    </NavLink>
     </li>
 );
 };
 
 return (
-<div
-    className={`${styles.navbar_container} ${
-    nav ? styles.navbar_mobile_active : undefined
-    }`}
->
+    <div
+        className={`${styles.navbar_container} ${
+        nav ? styles.navbar_mobile_active : undefined
+        }`}
+    >
     {/* TEST     */}
     <div className={styles.test}>
     <button
@@ -123,4 +123,4 @@ return (
 );
 };
 
-export default Navbar;
+export default Sidebar;

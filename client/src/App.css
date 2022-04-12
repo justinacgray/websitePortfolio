@@ -19,10 +19,3 @@ body {
     overflow: hidden;
     background-color: rgb(240, 244, 248,);
 }
-
-.App {
-    background-image: url('./assets/images/pexels-iva-muškić-691710.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    opacity: .85;
-}

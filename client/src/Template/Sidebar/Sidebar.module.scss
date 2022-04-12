@@ -5,7 +5,7 @@
     --color_nav_active: rgb(85, 79, 232);
     --color_nav_not_active: rgb(69, 101, 148);
     --color_nav_active_bg: rgb(15, 23, 42);
-    --nav-width: 16rem;
+    --nav-width: 14rem;
 
     background: var(--color_nav_bg);
     height: 100vh;
@@ -110,7 +110,7 @@ nav {
     display: flex;
     align-items: center;
     flex: 1;
-    padding: 0.5rem 0.75rem;
+    padding: 0.4rem 0.01rem;
     text-decoration: none;
     color: var(--color_nav_ctg);
     transition: all ease-in-out 0.2s;
@@ -160,7 +160,7 @@ nav {
 }
 
 .nav_small {
-    width: 3rem;
+    width: 5rem;
 
     .categories {
         padding: 0 1rem;
